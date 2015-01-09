@@ -1,0 +1,22 @@
+{
+  "name": "simple-express-static-server",
+  "version": "0.1.0",
+  "author": "Sandro Padin",
+  "description": "A very simple static file server. For development use only.",
+  "keywords": ["http", "web server", "static server"],
+  "main": "./server.js",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spadin/simple-express-static-server.git"
+  },
+  "dependencies": {
+    "express": "4.10.x"
+  },
+  "engines": {
+    "node": ">=0.6"
+  }
+}
+

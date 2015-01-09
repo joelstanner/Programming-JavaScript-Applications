@@ -1,0 +1,23 @@
+{
+  "name": "guestlist",
+  "version": "0.1.0",
+  "author": "Eric Elliott",
+  "description": "A handy tool for bouncers.",
+  "keywords": ["party", "guestlist"],
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "jquery-browserify": "*"
+  },
+  "devDependencies": {
+    "traverse": "*",
+    "grunt": "*",
+    "grunt-browserify": "*",
+    "browserify": "*"
+  },
+  "engines": {
+    "node": ">=0.6"
+  }
+}
